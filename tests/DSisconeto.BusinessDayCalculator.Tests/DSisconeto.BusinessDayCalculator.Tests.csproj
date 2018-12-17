@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DSisconeto.BusinessDayCalculator\DSisconeto.BusinessDayCalculator.csproj" />
+    <ProjectReference Include="..\..\src\DSisconeto.BusinessDayCalculator\DSisconeto.BusinessDayCalculator.csproj" />
   </ItemGroup>
 
 </Project>

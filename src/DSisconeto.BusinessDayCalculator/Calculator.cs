@@ -38,12 +38,7 @@ namespace DSisconeto.BusinessDayCalculator
         {
             var period = DatePeriod.Create(startAt, endAt);
 
-            if (extendable)
-            {
-                return CalculateExtendingDate(period);
-            }
-
-            return FilterDate(period);
+            return extendable ? CalculateExtendingDate(period) : FilterDate(period);
         }
 
 
